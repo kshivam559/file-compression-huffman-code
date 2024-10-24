@@ -13,9 +13,9 @@ This project is a **File Compression Tool** that uses Huffman Encoding to compre
 
 ```
 
-huffman_compression_tool/
+file-compression-huffman-code/
 │
-├── huffman_compression.py      # Main Python script containing the Huffman encoding/decoding logic and Streamlit interface
+├── huffman_code.py      # Main Python script containing the Huffman encoding/decoding logic and Streamlit interface
 ├── input.txt                   # Example text file to compress
 ├── compressed_file.huff        # Example output file after compression
 ├── huffman_codes.txt           # Example Huffman codes output file
@@ -37,12 +37,12 @@ huffman_compression_tool/
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/yourusername/huffman_compression_tool.git
+    git clone https://github.com/kshivam559/file-compression-huffman-code.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd huffman_compression_tool
+    cd file-compression-huffman-code
     ```
 
 3. Install the dependencies:
@@ -55,5 +55,9 @@ huffman_compression_tool/
 You can run the Streamlit app by using the following command:
 
 ```bash
-streamlit run huffman_compression.py
+streamlit run huffman_code.py
+
+```
+
+This will open the Streamlit web app in your browser, where you can upload files for compression and decompression.
 
